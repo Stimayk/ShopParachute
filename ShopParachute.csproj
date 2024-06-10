@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CounterStrikeSharp.API" Version="*" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="IShopApi">
+			<HintPath>C:\Users\Stimayk\Documents\GitHub\WpPluginSources\IShopApi\IShopApi.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
