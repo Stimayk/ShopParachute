@@ -42,7 +42,7 @@ namespace ShopParachute
         {
             if (JsonConfig == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Ïàðàøþò");
+            SHOP_API.CreateCategory(CategoryName, "ÐŸÐ°Ñ€Ð°ÑˆÑŽÑ‚");
 
             foreach (var item in JsonConfig.Properties().Where(p => p.Value is JObject))
             {
